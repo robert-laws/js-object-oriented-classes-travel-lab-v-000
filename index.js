@@ -9,3 +9,10 @@ class Driver {
     return Math.ceil((beginning - this.startDate) / (1000*60*60*24*365));
   }
 }
+
+class Route {
+  constructor(beginningLocation, endingLocation) {
+    this.beginningLocation = beginningLocation;
+    this.endingLocation = endingLocation;
+  }
+}
